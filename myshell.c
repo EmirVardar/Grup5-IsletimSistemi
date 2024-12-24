@@ -1,3 +1,6 @@
+//Selenay Hur g221210088
+
+
 #include "myshell.h"
 
 // Arka plan süreçlerini takip eden bir dizi

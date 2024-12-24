@@ -1,3 +1,6 @@
+# Selenay Hur g221210088
+
+
 # Compiler ve derleme bayrakları
 CC = gcc
 CFLAGS = -Wall -g
