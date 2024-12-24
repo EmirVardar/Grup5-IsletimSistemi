@@ -6,10 +6,10 @@ TARGET = shell
 # Hedef dosya ve bağımlılıkları
 all: $(TARGET)
 	@echo "Program çalıştırılıyor..."
-	@./$(TARGET) # Derlemeden sonra program otomatik olarak çalıştırılır
+	@./$(TARGET)
 
-$(TARGET): shell.c
-	$(CC) $(CFLAGS) -o $(TARGET) shell.c
+$(TARGET): myshell.c myshell.h
+	$(CC) $(CFLAGS) -o $(TARGET) myshell.c
 
 # Temizlik komutu
 clean:
